@@ -1,0 +1,45 @@
+------------POST-----------
+http://127.0.0.1:5000/Jogo
+---------------------------
+
+Body - raw - JSON
+
+{
+        "titulo": "Tomodachi Life: LTD",
+        "genero": "Simulação Social",
+        "desenvolvedor": "Nintendo",
+        "plataforma": "Nintendo Switch"
+}
+
+{
+        "titulo": "Genshin Impact",
+        "genero": "Action RPG",
+        "desenvolvedor": "miHoYo",
+        "plataforma": "PC, PlayStation 5, Android, iOS"
+}
+
+{
+        "titulo": "Honkai: Star Rail",
+        "genero": "Action RPG de turno",
+        "desenvolvedor": "miHoYo",
+        "plataforma": "PC, PlayStation 5, Android, iOS"
+}
+
+{
+        "titulo": "Cookie Run: Kingdom",
+        "genero": "Estratégia e Construção de Reinos",
+        "desenvolvedor": "Devsisters Corporation",
+        "plataforma": "Mobile e PC"
+}
+
+{
+        "titulo": "Tom Clancy's Rainbow Six Siege X",
+        "genero": "Tactical Competitive Team FPS",
+        "desenvolvedor": "Ubisoft",
+        "plataforma": "PC, Playstation, Xbox"
+}
+
+------------GET------------
+http://127.0.0.1:5000/Jogo
+http://127.0.0.1:5000/Jogo/1
+---------------------------
